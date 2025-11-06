@@ -1,0 +1,5 @@
+{
+  "name": "Pianificatore Turni Vetronaviglio",
+  "description": "Un'applicazione intelligente per la gestione dei turni per i team di produzione, accessibile tramite dispositivi mobili. Consente di programmare, visualizzare e gestire i turni di lavoro, con suggerimenti basati sull'intelligenza artificiale per ottimizzare le assegnazioni.",
+  "requestFramePermissions": []
+}

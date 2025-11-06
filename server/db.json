@@ -1,0 +1,25 @@
+{
+  "workers": [
+    { "id": "w1", "name": "Mario Rossi", "avatarUrl": "https://i.pravatar.cc/150?u=mario" },
+    { "id": "w2", "name": "Luigi Verdi", "avatarUrl": "https://i.pravatar.cc/150?u=luigi" },
+    { "id": "w3", "name": "Giovanna Bianchi", "avatarUrl": "https://i.pravatar.cc/150?u=giovanna" },
+    { "id": "w4", "name": "Paola Neri", "avatarUrl": "https://i.pravatar.cc/150?u=paola" }
+  ],
+  "machines": [
+    { "id": "m1", "name": "Pressa A" },
+    { "id": "m2", "name": "Tornio CNC B" },
+    { "id": "m3", "name": "Imballatrice 3" }
+  ],
+  "departments": [
+    { "id": "d1", "name": "Assemblaggio" },
+    { "id": "d2", "name": "Imballaggio" },
+    { "id": "d3", "name": "Controllo Qualità" }
+  ],
+  "shifts": [
+    { "id": "s1", "workerId": "w1", "date": "2024-07-29", "startTime": "06:00", "endTime": "14:00", "departmentId": "d1", "machineId": "m1" },
+    { "id": "s2", "workerId": "w2", "date": "2024-07-29", "startTime": "14:00", "endTime": "22:00", "departmentId": "d1", "machineId": "m1" }
+  ],
+  "notifications": [
+      { "id": "n1", "message": "Benvenuto nel sistema di Gestione Turni!", "type": "info", "read": true, "timestamp": "2024-07-28T10:00:00.000Z" }
+  ]
+}
